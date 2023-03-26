@@ -8,7 +8,7 @@ The report includes a comparison of results using the â€œFirst Come First Serveâ
 
 ## Run using Docker
 
-The simulation may be executed locally using the provided Dockerfile like this:
+The simulation may be executed locally using the provided Dockerfile. After checking out this repo to your local device and ensuring the Docker services are running, you can run the following commands in the folder containing the `Dockerfile`:
 
 ```
 docker build -t cpuscheduler .
